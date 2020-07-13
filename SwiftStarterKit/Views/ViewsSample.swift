@@ -19,7 +19,9 @@ struct ViewsSample {
     ]
    
     var dataPickerSample: [ViewData] = []
-    var listSample: [ViewData] = []
+    var listSample: [ViewData] = [
+        ViewData(name: "BaseListView", view: AnyView(BaseListView()))
+    ]
     var pickerSample: [ViewData] = []
     var sliderSample: [ViewData] = []
     var stepperSample: [ViewData] = []
