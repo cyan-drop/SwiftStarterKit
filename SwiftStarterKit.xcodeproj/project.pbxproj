@@ -23,6 +23,7 @@
 		87C821FA24A97EE5008B7443 /* ModifiersSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C821F924A97EE5008B7443 /* ModifiersSample.swift */; };
 		87C821FC24A984C3008B7443 /* TransitionsSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C821FB24A984C3008B7443 /* TransitionsSample.swift */; };
 		87C8220024A98C06008B7443 /* BaseTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C821FF24A98C06008B7443 /* BaseTextView.swift */; };
+		E49CC89A254827DD00BE8DB9 /* BaseSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49CC899254827DD00BE8DB9 /* BaseSliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		87C821F924A97EE5008B7443 /* ModifiersSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiersSample.swift; sourceTree = "<group>"; };
 		87C821FB24A984C3008B7443 /* TransitionsSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsSample.swift; sourceTree = "<group>"; };
 		87C821FF24A98C06008B7443 /* BaseTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextView.swift; sourceTree = "<group>"; };
+		E49CC899254827DD00BE8DB9 /* BaseSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,11 +175,11 @@
 			path = Text;
 			sourceTree = "<group>";
 		};
-		87C8220124A992CF008B7443 /* DataPicker */ = {
+		87C8220124A992CF008B7443 /* DatePicker */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = DataPicker;
+			path = DatePicker;
 			sourceTree = "<group>";
 		};
 		87C8220224A992E0008B7443 /* List */ = {
@@ -194,7 +196,7 @@
 				87A0FBCD24A1DF100067D5E4 /* ViewsSample.swift */,
 				87C821FE24A98BE1008B7443 /* Text */,
 				87C821FD24A98AED008B7443 /* Button */,
-				87C8220124A992CF008B7443 /* DataPicker */,
+				87C8220124A992CF008B7443 /* DatePicker */,
 				87C8220224A992E0008B7443 /* List */,
 				87C8220424A994F6008B7443 /* Picker */,
 				87C8220524A99500008B7443 /* Slider */,
@@ -216,6 +218,7 @@
 		87C8220524A99500008B7443 /* Slider */ = {
 			isa = PBXGroup;
 			children = (
+				E49CC899254827DD00BE8DB9 /* BaseSliderView.swift */,
 			);
 			path = Slider;
 			sourceTree = "<group>";
@@ -435,6 +438,7 @@
 				87A0FBCE24A1DF100067D5E4 /* ViewsSample.swift in Sources */,
 				879E4500247FFEAA008CE0B9 /* LibraryDetailView.swift in Sources */,
 				87C821FA24A97EE5008B7443 /* ModifiersSample.swift in Sources */,
+				E49CC89A254827DD00BE8DB9 /* BaseSliderView.swift in Sources */,
 				870752F4247AC3F900A4F9DD /* SceneDelegate.swift in Sources */,
 				87A0FBCC24A1DE6E0067D5E4 /* ViewData.swift in Sources */,
 				870752F6247AC3F900A4F9DD /* MainContentsView.swift in Sources */,
