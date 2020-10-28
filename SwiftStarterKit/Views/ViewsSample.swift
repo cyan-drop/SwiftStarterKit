@@ -18,12 +18,14 @@ struct ViewsSample {
         ViewData(name: "BaseButtonView", view: AnyView(BaseButtonView()))
     ]
    
-    var dataPickerSample: [ViewData] = []
+    var datePickerSample: [ViewData] = []
     var listSample: [ViewData] = [
         ViewData(name: "BaseListView", view: AnyView(BaseListView()))
     ]
     var pickerSample: [ViewData] = []
-    var sliderSample: [ViewData] = []
+    var sliderSample: [ViewData] = [
+        ViewData(name: "BaseSliderView", view: AnyView(BaseSliderView()))
+    ]
     var stepperSample: [ViewData] = []
     var textFieldSample: [ViewData] = []
     var toggleSample: [ViewData] = []

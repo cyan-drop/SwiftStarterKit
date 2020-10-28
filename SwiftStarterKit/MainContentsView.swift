@@ -29,7 +29,7 @@ struct MainContentsView: View {
         self.viewsList = [
             ViewDataList(title: "Text", dataList: viewsSample.textSample),
             ViewDataList(title: "Button", dataList: viewsSample.buttonSample),
-            ViewDataList(title: "DataPicker", dataList: viewsSample.dataPickerSample),
+            ViewDataList(title: "DatePicker", dataList: viewsSample.datePickerSample),
             ViewDataList(title: "List", dataList: viewsSample.listSample),
             ViewDataList(title: "Picker", dataList: viewsSample.pickerSample),
             ViewDataList(title: "Slider", dataList: viewsSample.sliderSample),
