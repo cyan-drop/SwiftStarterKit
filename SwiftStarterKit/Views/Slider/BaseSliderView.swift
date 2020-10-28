@@ -2,9 +2,8 @@
 //  BaseSliderView.swift
 //  SwiftStarterKit
 //
-//  Created by 丸山翔太郎 on 2020/10/27.
+//  Created by shotaro maruyama on 2020/10/27.
 //  Copyright © 2020 Cyan. All rights reserved.
-//
 
 import SwiftUI
 
